@@ -1,0 +1,4 @@
+target: src.utils.mediapipe_runner.MediapipeRunner
+params: 
+  ckpt_fp: pretrained/mediapipe/face_landmarker.task
+  dsize: 224

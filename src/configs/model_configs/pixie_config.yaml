@@ -1,0 +1,4 @@
+target: src.modules.pixie.pixie_encoder.PixieEncoder
+params: 
+  config: null
+  ckpt_fp: pretrained/pixie/pixie_model.tar

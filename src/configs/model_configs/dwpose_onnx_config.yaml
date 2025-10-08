@@ -1,0 +1,4 @@
+target: src.modules.dwpose.DWposeDetector
+params: 
+  ckpt_dir: pretrained/dwpose
+  use_gpu: True

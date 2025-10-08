@@ -1,0 +1,6 @@
+target: src.modules.base.onnx_model.OnnxModel
+params: 
+  ckpt_fp: pretrained/lmk70/landmark.onnx
+  input_keys: ['input_image']
+  output_keys: ['pts', ]
+  use_gpu: True

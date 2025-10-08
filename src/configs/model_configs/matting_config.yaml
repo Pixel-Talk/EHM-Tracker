@@ -1,0 +1,4 @@
+target: src.modules.human_matting.matting.StyleMatteModel
+params: 
+  ckpt_fp: pretrained/matting/stylematte_synth.pt
+  device: cuda:0

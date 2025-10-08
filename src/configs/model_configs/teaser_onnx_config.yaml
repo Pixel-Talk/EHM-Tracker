@@ -1,0 +1,6 @@
+target: src.modules.base.onnx_model.OnnxModel
+params: 
+  ckpt_fp: pretrained/teaser/TEASER_lmk_2.onnx
+  input_keys: ['input_image']
+  output_keys: ['pose_params', 'cam', 'shape_params', 'expression_params', 'eyelid_params', 'jaw_params']
+  use_gpu: True

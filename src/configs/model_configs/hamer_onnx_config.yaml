@@ -1,0 +1,6 @@
+target: src.modules.base.onnx_model.OnnxModel
+params: 
+  ckpt_fp: pretrained/hamer/hamer_encoder.onnx
+  input_keys: ['input_image',]
+  output_keys: ["pred_cam", "global_orient", "hand_pose", "betas", "pred_cam_t", "focal_length"]
+  use_gpu: True
