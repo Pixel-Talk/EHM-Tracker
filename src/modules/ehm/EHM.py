@@ -24,7 +24,7 @@ class EHM(nn.Module):
         left_hand_center=self.v_template[self.smplx.smplx2mano_ind['left_hand'],:].mean(0)
         right_hand_center=self.v_template[self.smplx.smplx2mano_ind['right_hand'],:].mean(0)
         self.register_buffer('left_hand_center',left_hand_center)
-        self.register_buffer('right_hand_center',left_hand_center)
+        self.register_buffer('right_hand_center',right_hand_center)
 
     def dummy_proj(self, X, camera):
         return X
