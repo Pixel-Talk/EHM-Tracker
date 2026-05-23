@@ -18,12 +18,12 @@ This guide outlines the steps to set up and run the project components, which ha
 #### Cloning the Repository
 ```shell
 # Via SSH
-git clone git@github.com:Pixel-Talk/EHM-Trakcer.git
+git clone git@github.com:Pixel-Talk/EHM-Tracker.git
 or
 # Via HTTPS 
-git clone https://github.com/Pixel-Talk/EHM-Trakcer.git
+git clone https://github.com/Pixel-Talk/EHM-Tracker.git
 
-cd EHM-Trakcer
+cd EHM-Tracker
 ```
 
 ### Environment Setup
@@ -32,8 +32,8 @@ Our default, provided install method is based on Conda package and environment m
 **The environment dependencies are identical to the updated GUAVA environment.**
 ```shell
 # Create and Activate Conda Environment:
-conda create --name EHM-Trakcer python=3.10
-conda activate EHM-Trakcer
+conda create --name EHM-Tracker python=3.10
+conda activate EHM-Tracker
 
 # Install Core Dependencies:
 pip install -r requirements.txt
