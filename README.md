@@ -6,7 +6,9 @@
   <img src="assets/Docs/visual.gif">
 </div>
 
-> **New tracker:** [EMOSH-Tracker](https://github.com/EastbeanZhang/EMOSH-Tracker) extends EHM tracking to full-body, upper-body, and portrait scenes with confidence-aware joint fitting and flexible input resolutions. See the new repository for installation and examples.
+## 🔥 News
+
+- **2026-10-18** — **New tracker:** [EMOSH-Tracker](https://github.com/EastbeanZhang/EMOSH-Tracker) extends EHM tracking to full-body, upper-body, and portrait scenes with confidence-aware joint fitting and flexible input resolutions. See the new repository for installation and examples.
 
 ## 📌 Introduction
 This repository contains the EHM tracking implementation associated with the paper ["GUAVA: Generalizable Upper Body 3D Gaussian Avatar"](https://github.com/Pixel-Talk/GUAVA).
